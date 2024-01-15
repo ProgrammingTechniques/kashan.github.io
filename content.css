@@ -1,0 +1,314 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.header {
+	width: 100%;
+	height: 100px;
+	background-color: #faf9f6;
+	border: 1px solid transparent;
+	box-sizing: border-box;
+	transition: 0.4s;
+}
+.logo {
+	width: 200px;
+	height: 75px;
+	font-size: 35px;
+	font-weight: 600;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+	color: black;
+	background-color: transparent;
+	margin-left: 400px;
+	margin-top: 10px;
+	float: left;
+}
+.logo h4 {
+	margin-top: 20px;
+	letter-spacing: 3px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+.logo:hover {
+	font-size: 40px;
+	color: #de3163;
+}
+.navigation {
+	width: 750px;
+	height: 99px;
+	background-color: transparent;
+	float: right;
+	margin-right: 20px;
+}
+.header img {
+	width: 35px;
+	height: 35px;
+	margin-top: 28px;
+}
+.header #design-li {
+	margin-left: 10px;
+}
+
+.header #image-skill-li {
+	width: 35px;
+	height: 35px;
+	margin-top: 28px;
+	margin-left: 80px;
+}
+.header #skill {
+	margin-left: 10px;
+}
+.header #image-shake-li {
+	width: 35px;
+	height: 35px;
+	margin-top: 28px;
+	margin-left: 80px;
+}
+
+.header #shake-li {
+	margin-left: 10px;
+}
+
+ul {
+	display: flex;
+}
+ul li {
+	list-style-type: none;
+	margin-left: 70px;
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin-top: 35px;
+	color: black;
+	transition: 0.2s;
+	cursor: pointer;
+}
+ul li:hover {
+	font-size: 20px;
+	letter-spacing: 5px;
+	color: #de3163;
+	/* text-decoration: overline; */
+}
+.content {
+	width: 100%;
+	height: 35px;
+	background-color: rgb(11, 1, 1); /* Initial color */
+	background-image: linear-gradient(
+		to right,
+		#275ab9c1,
+		rgba(171, 23, 65, 0.781)
+	);
+	transition: background-position 0.6s ease-out;
+}
+.content:hover {
+	background-position: 1470px 0;
+}
+
+.experiencePage {
+	width: 100%;
+	height: 750px;
+	background-image: url("leftside.jpg");
+	background-size: cover;
+	border: 1px solid transparent;
+	box-sizing: border-box;
+}
+h6 {
+	color: white;
+	font-size: 38px;
+	letter-spacing: 3px;
+	margin-top: 80px;
+	text-align: center;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	transition: 0.3s;
+}
+h6:hover {
+	letter-spacing: 10px;
+	color: skyblue;
+}
+.expStrip {
+	width: 1000px;
+	height: 400px;
+	background-image: url("toolsPics/stallDesign.jpg");
+	background-size: contain;
+	margin-top: 40px;
+	margin-left: 250px;
+	transition: 1s;
+}
+.expStrip:hover {
+	-webkit-transform: rotate(-10deg);
+	-moz-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+}
+
+.exp1 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url("toolsPics/expPhotoshop.svg");
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(7px);
+	-webkit-backdrop-filter: blur(7px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border: 1px solid black;
+	box-sizing: border-box;
+	transition: 0.2s;
+	cursor: pointer;
+}
+.exp1:hover {
+	background: rgba(0, 140, 255, 0.444);
+}
+.exp2 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url("toolsPics/expIllustrator.svg");
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(7px);
+	-webkit-backdrop-filter: blur(7px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border: 1px solid black;
+	box-sizing: border-box;
+	transition: 0.2s;
+}
+.exp2:hover {
+	background: rgba(84, 17, 6, 0.566);
+}
+.exp3 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url("toolsPics/expMax.svg");
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(7px);
+	-webkit-backdrop-filter: blur(7px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border: 1px solid black;
+	box-sizing: border-box;
+	transition: 0.2s;
+	cursor: pointer;
+}
+.exp3:hover {
+	background: rgba(6, 84, 79, 0.53);
+}
+.exp4 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url("toolsPics/expAutocad.svg");
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(7px);
+	-webkit-backdrop-filter: blur(7px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border: 1px solid black;
+	box-sizing: border-box;
+	transition: 0.2s;
+	cursor: pointer;
+}
+.exp4:hover {
+	background: rgba(246, 34, 2, 0.566);
+}
+.exp5 {
+	width: 200px;
+	height: 200px;
+	float: right;
+	background-image: url("toolsPics/expVray.svg");
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(7px);
+	-webkit-backdrop-filter: blur(7px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border: 1px solid black;
+	box-sizing: border-box;
+	transition: 0.2s;
+	cursor: pointer;
+}
+.exp5:hover {
+	background: rgba(23, 4, 0, 0.566);
+}
+.exp6 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url("toolsPics/expCoralDraw.svg");
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(7px);
+	-webkit-backdrop-filter: blur(7px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border: 1px solid black;
+	box-sizing: border-box;
+	transition: 0.2s;
+	cursor: pointer;
+}
+.exp6:hover {
+	background: rgba(14, 173, 0, 0.566);
+}
+.exp7 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url("toolsPics/expSketchup.svg");
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(7px);
+	-webkit-backdrop-filter: blur(7px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border: 1px solid black;
+	box-sizing: border-box;
+	transition: 0.2s;
+	cursor: pointer;
+}
+.exp7:hover {
+	background: rgba(0, 140, 255, 0.444);
+}
+.exp8 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url("toolsPics/expSolidworks.svg");
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(7px);
+	-webkit-backdrop-filter: blur(7px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border: 1px solid black;
+	box-sizing: border-box;
+	transition: 0.2s;
+	cursor: pointer;
+}
+.exp8:hover {
+	background: rgba(246, 34, 2, 0.566);
+}
+.exp9 {
+	width: 200px;
+	height: 200px;
+	float: left;
+	background-image: url("toolsPics/expRevit.svg");
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(7px);
+	-webkit-backdrop-filter: blur(7px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border: 1px solid black;
+	box-sizing: border-box;
+	transition: 0.2s;
+	cursor: pointer;
+}
+.exp9:hover {
+	background: rgba(0, 140, 255, 0.444);
+}
+.exp10 {
+	width: 200px;
+	height: 200px;
+	float: right;
+	background-image: url("toolsPics/expOffice.svg");
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(7px);
+	-webkit-backdrop-filter: blur(7px);
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	border: 1px solid black;
+	box-sizing: border-box;
+	transition: 0.2s;
+	cursor: pointer;
+}
+.exp10:hover {
+	background: rgba(246, 34, 2, 0.566);
+}
